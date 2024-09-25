@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-widht, initial-scale=1.0">
+        <link rel="shortcut icon" href="pena.ico" type="image/x-icon">
+        <title>Link e Âncoras</title>
+    </head>
+    <body>
+        <h1>Usando links externos</h1>
+        <p>Todo ponto que te leva para outro, é um link</p>
+        <p>Como por exemplo, esse: <a href="https://youtu.be/LeOVXQDsAIY?si=a_HIBfBegT6rtoaQ">Clique aqui</a>  que vai te levar até a aula no youtube sobre Links e Âncoras, mas tem uma grande diferença, pois sempre que você entrar neste link, a sua aba atual irá fechar.</p>
+        <p>Se você não quiser que isso aconteça, deve usar as seguintes variáveis na sua tag &lt;a href&gt; "target="_blank" rel="external", e lembre-se, a target é de um "alvo, um site alvo" e o rel é "relativo á"</p>
+        <p>Você deve usar isso para toda vez que quiser redirecionar alguém para outro lugar fora do seu site sem fecha a aba atual. Vamos testar.</p>
+        <p>agora você pode clicar sem fechar sua aba atual.<a href="https://dolphin-anty.com/"target="_blank"rel="external">Golfinhos aqui</a></p>
+
+        <h1>Link Interno</h1>
+        <p>Para testar outro tipo de link interno</p>
+        <p>Esta é a primeria parte da aula de link e âncoras, se você quiser acessar a segunda página <a href="pag002.html"rel="next">Essa aqui</a></p>
+        <p>Também tem o rel dedicato para algum site que te patrocina você, por exemplo, <a href="https://www.cocacola.com.br"target="_blank"rel="nofollow">Coca-Cola</a>, aqui usamos o rel "nofollow" para não perpetua/indexinar esse site, ele não vai ser visto a olho, é mais para o mecânismo de busca.
+        </p>
+
+        <h2>Apenas mais informação</h2>
+        <p>Sempre que você criar uma pasta dentro de uma pasta com outras páginas e criar um link para a página dentro da página, vc deve apertar "Ctrl+Space" assim irá abrir o local onde a pasta da página está, se for diretamente sem ser assim, a página vai dar como "Não encotrada".<mark>Aprenda Linux</mark></p>
+
+        <p>Para redirecionar um link a uma página fora da pasta use "../" no começo do nome da página que você deseja ir, exemplo:
+            <a href="Noticías/pag003.html">Ir para a terceira página, a de noíticas.</a></p>
+
+            <h2>Links para Download</h2>
+            <ul>
+                <li><a href="livro/meulivro.pdf"Download="meulivro.pdf"type="application/pdf">Livro em PDF</a></li>
+                <li><a href="livro/meulivro.zip"Download="meulivro.zip" type="application/zip">Livro Compactado em ZIP</a></li>
+                
+            </ul>
+        </body>
+       

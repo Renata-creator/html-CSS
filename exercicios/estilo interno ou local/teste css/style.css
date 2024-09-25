@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(139, 45, 64);
+    color:chocolate;
+    font-size: 12pt;
+    font-family:Trebuchet MS;
+}
+
+h1 {
+    color:brown;
+}
+
+a{
+    color:brown;
+    text-decoration:none;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="pena.ico" type="image/x-icon">
+        <title>Outras Formatações</title>
+    </head>
+    <body>
+<h1>Outras Formatações</h1>
+<h2>Código-Fonte / CODE</h2>
+
+<p>Na tag "code", vc pode delimitar seu código, mas a principal vantagem é o valor semãntico dela,<br> no qual indica ao navegador que se trata de um código de computador. <br>Porém também pode ter vantagem no efeito visual, pois torna mais fácil a vizualização dos códigos.</p>
+<p>Essa é uma frase sem a tag code: document.getElementByld('teste') é escrito em linguagem Javascript.</p>
+<p>E essa é uma frase com a tag code: <code>O comando document.getElementByld('teste') é escrito em linguagem Javascript.</code></p>
+
+<h2>Exemplo de código em Phyton</h2>
+<mark>Use a tag &lt;pre&gt; para não ficar em uma linha só e ficar mais organizado</mark>
+
+<pre>
+    <code>num=int('digite um número')) if num % 2==0:
+    print(F'O número {num} é par)
+    else:
+    print(F'O número {num} é impar')
+        print('Fim do Programa')</code>
+</pre>
+
+<p>Dependendo do local onde você adicionou o &lt;pre&gt; pode ser que a posicão do código tambem mude, como:
+<pre>
+            <code>num=int('digite um número')) if num % 2==0:
+        print(F'O número {num} é par)
+        else:
+        print(F'O número {num} é impar')
+            print('Fim do Programa')</code>
+</pre>
+</p>O &lt;pre&gt; também considera os espaços entre cada linha, mas caso você não queira isso, vc pode usar,<br> selecionando tudo e aperte "Shift + Tab para a esquerda e apenas e tab para a direita"
+<br>
+<h2>Citações</h2>
+<p>Uma citação é um trecho de texto que foi escrita ou dita por outra pessoa.
+    <br><mark>Exemplo:</mark><br>
+
+    Segundo pai dos burros:<br>
+     <q>
+         Semântica é o significado dos vocábulos,
+            por oposiçaõ á sua forma.
+     </q></p>
+     Para criar uma citação em HTML, podemos usar a tag &lt;q&gt; que vai receber automaticamente as aspas, mas não terá nenhum deslocamento. <mark style="background-color: rgb(53, 158, 84);"><br>É mais usada quando queremos fazer uma citação no meio de um parágrafo(semântico)</mark>
+
+     <h2>Citação mais longa</h2>
+     Também podemos criar citações mais longas (Em blocos) e que tenham um parágrafo só para si. N<br>esse caso, colocamos tudo dentro de  &lt;blockquote&gt;. O texto ganha um recuo automaticamente. <br>Podemos adicionar um link da citação original usando o parâmetro <mark>cite</mark> dentre da tag.
+     <br>
+     Exemplo:
+     <blockquote cite="https://escolaeducacao.com.br/frases-de-albert-einstein/#:~:text=Frases%20de%20Albert%20Einstein%20Lembre-se%20que%20as%20pessoas,Olhem%20para%20as%20estrelas%20e%20aprendam%20com%20elas.">Frase de Albert Einstein:<br> Deus não escolhe os capacitados, capacita os escolhidos. Fazer ou não fazer algo só depende de nossa vontade e perseverança.</blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Sempre que você quiser escrever uma sigla, mas deixar claro ao usuário e aos mecanismos de buscas o que ela siginifica, use a tag &lt;abbr&gt;</p>
+
+    <p>Eu estou estudando <abbr title= "Hyper Text Markup Language">HTML</abbr>para criar sites</p>
+
+    <h2>Texto Invertido</h2>
+    <p>BDO, significa <i>bi-directional override</i>, ao usar esta tag, coloque tmbém o parâmetro <mark>dir</mark> para indicar 2 direções possíveis:
+        <br>
+        RTL=right to left
+        <br>
+        LTR=left to right
+        Assim; 
+        <br>
+        <bdo dir="rtl">Amo comida</bdo>
+        <br>
+        <bdo dir="ltr">Amo comida</bdo>
+    </p>
+
+    <p>Link para a <a href="../Lista OL e UL/index.html">lição 9</a></p>
+    </body>
+</html>

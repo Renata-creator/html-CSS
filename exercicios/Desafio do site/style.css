@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf);
+}
+
+*{
+    margin: 0%;
+}
+
+body{
+    background-color: #6fa77b;
+    background-attachment: fixed;
+    overscroll-behavior: none;
+    margin: 0%;
+}
+
+.quadro1{
+    background-image: linear-gradient( to top,#02735E,#038C3E);
+    text-align: center;
+    max-width: 100%;
+    margin-bottom: 2%;
+}
+
+.h1p{
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+.h1s{
+    background-color: #038C3E;
+    font-family: 'Android';
+
+}
+
+.h2p{
+    text-align: center;
+    color: #ffffff;
+    font-size: medium;
+    font-family:'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
+}
+
+.h2s{
+    background-color: #038C3E;
+    font-family: 'Android';
+}
+
+.imagem1{
+    width: 80%;
+    max-width: 80%;
+}
+
+.texto{
+    color: #000000;
+    padding: 2%;
+    margin: 0%;
+}
+
+.texto1{
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2%
+}
+
+.h3p{
+    background-color: #038C3E;
+    font-family: 'Android';
+}
+
+.imagem2{
+    width: 70%;
+    max-width: 90%;
+}
+
+.imagem3{
+    width: 40%;
+    max-width: 50%;
+}
+
+.linkmenu{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    margin: 3%;
+}
+
+.menu{
+    background-color: #038C3E;
+}
+
+.part1{
+    background-color: #034159;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    max-width: 80%;
+    border: solid 1px black;
+    box-shadow: 3px 3px 3px #034159;
+}
+
+.video{
+    text-align: center;
+    max-width: 100%;
+}
+
+.h4p{
+    background-color: #038C3E;
+    border-radius: 10%;
+    padding: 1%;
+    font-size: 120%;
+}
+
+
+.linkpart{
+    background-color: #034159;
+    border-radius: 10%;
+    max-width: 80%;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.part2{
+    background-color: #05612d;
+    border: solid 1px#000000;
+    margin-top: 5%;
+}
+
+.linksversao{
+    list-style-position: inside;
+    columns: 2;
+    
+}
+
+footer{
+    background-color: #034159;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -10%;
+}
+
+

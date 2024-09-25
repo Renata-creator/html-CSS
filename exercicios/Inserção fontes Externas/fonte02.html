@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="pena.ico" type="image/x-icon">
+        <title>Usando Fontes Externas</title>
+        <style>
+            @font-face {
+                font-family:'Dream';
+                src: url('fonts/DreamCottage-Regular.otf') format(opentype);
+
+                /*
+                    Tipos de formato()
+                    - opentype (otf)
+                    - truetype (ttf)
+                    - embedded-opentype
+                    - truetype-aat (Apple Advanced Typography)
+                    -svg
+                    */
+            }
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            h1{
+                font-family: 'Dream', 'Times New Roman', Times, serif;
+                font-size: 3em;
+                text-align: right;
+            }
+
+            h2{
+                font-family: 'Dream', 'Times New Roman', Times, serif;
+                font-size: 2em;
+                text-align: center;
+
+            }
+
+            p{
+                text-align: justify;
+                text-indent: 30px;
+                /*o text indent serve para colocar um espaço no começo do parágrafo*/
+            }
+        </style>
+    </head>
+    <body>
+    <h1>Título 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta repellat modi voluptatem incidunt ut doloribus at alias dolorem odio dolores? Sequi saepe blanditiis, dicta harum esse optio vel? Maiores, unde!</p>
+
+    <h2>Tipos de alinhamento</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore omnis quod nostrum fugiat vitae eos iure sapiente eligendi ut reiciendis hic non totam sit, iusto facilis dolore! Et, veniam.</p>
+
+    </body>

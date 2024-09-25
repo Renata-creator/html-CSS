@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(57, 67, 73);
+    color: rgb(34, 188, 194);
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    color: cadetblue;
+    background-color: beige;
+}
+
+a{
+    color: #bd90ba;
+    text-decoration: none;
+}
